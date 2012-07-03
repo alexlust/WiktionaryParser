@@ -1,0 +1,26 @@
+About
+
+This is a a russian-config for mapping Wiktionary RDF extraction: http://wiktionary.dbpedia.org/
+
+TODO
+in extraction_framework:  transcriptions (http://wiktionary.dbpedia.org/terms/hasAudioSingular
+http://wiktionary.dbpedia.org/terms/hasPronunciationPlural), hasHyponym, hasHyperonym, hasAntonym, hasSynonym
+
+Now hyperonyms, hyponyms and antonyms are mapped to the synonyms.
+
+in russian wiktionary # symbols are used to assign a number later. That will not be parsed accordingly.
+
+must be likely:
+<wikiTemplate>==== Синонимы ====
+(# $line
+)*
+</wikiTemplate>
+
+now:
+
+<wikiTemplate>==== Синонимы ====
+(# $line
+)*
+</wikiTemplate>
+
+
